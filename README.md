@@ -1,38 +1,35 @@
 #Scnya Jangan Dijual!
 
-# Hapus Session.Data Untuk Mendapatkan Session Baru
- Setting Owner Dll Di Config.js
+# Hapus Session.Data.json Untuk Mendapatkan Session Baru
+ •Setting Owner Dll Di Config.js
 
 # Jika Menemukan Bug/Ellor Maklumin Dulu
- Disarankan Untuk Run Di Rdp/Termux
+ •Disarankan Untuk Run Di Rdp/Termux
 
 # How To Run Termux
+>>
+$pkg upgrade && pkg update
 
-(Download Dulu File)
+$pkg install git -y
 
-$ pkg upgrade && pkg update
+$pkg install nodejs -y
 
-$ pkg install git -y
+$pkg install ffmpeg -y
 
-$ pkg install nodejs -y
+$pkg install imagemagick -y
 
-$ pkg install ffmpeg -y
+$git clone https://github.com/Sendalgtps/bott
 
-$ pkg install imagemagick -y
+$cd bott
 
-$ termux-setup-storage
-
-$ cd /sdcard
-
-$ cd (name file)
-
-$ npm start
-
+$npm start
+>>
 Jika Belum Paham/Belum Bisa Cek YouTube
 
 # Donasi Here
+
 Https://Saweria.co/loxion
 
 ありがとう 
-
+Arigatō 
 # <3
