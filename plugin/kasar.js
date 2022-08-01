@@ -7,7 +7,7 @@ conn.sendFile(m.chat, helloarie, '', '', m, true)
 // await conn.sendMessage(m.chat, { audio: { url: helloarie }, mimetype: 'audio/mp4'}, m)
 }
 
-handler.customPrefix = /^(anj|ajg|anjing|bajingan|bngsat|bangsat|kontol|memeq|babi|pepeq|pepek|meki|titid|Tityd|peler|tetek|toket|ngewe|goblok|tolol|ngentod|jembut|bego|dajjal|jancuk|pantek|puki|kimak|kampang|lonte|pelacur|nigga|fuck|dick|bitch|tits|basta)$/i
+handler.customPrefix = /^(anj|kontol|ajg|anjing|bajingan|bngsat|bangsat|kontol|memeq|babi|pepeq|pepek|meki|titid|Tityd|peler|tetek|toket|ngewe|goblok|tolol|ngentod|jembut|bego|dajjal|jancuk|pantek|puki|kimak|kampang|lonte|pelacur|nigga|fuck|dick|bitch|tits|basta)$/i
 handler.command = new RegExp
 
 handler.limit = true
